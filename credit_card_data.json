@@ -1,0 +1,659 @@
+[
+  {
+    "ID": "51",
+    "Name": "AU Bank Zenith+",
+    "Interest": "23.88",
+    "Feature1": "Travel",
+    "Feature2": "Rewards",
+    "Feature3": "Insurance",
+    "Feature4": "Entertainment"
+  },
+  {
+    "ID": "18",
+    "Name": "HDFC Diners Club Black",
+    "Interest": "23.88",
+    "Feature1": "Travel",
+    "Feature2": "Entertainment",
+    "Feature3": "Rewards",
+    "Feature4": "Insurance"
+  },
+  {
+    "ID": "21",
+    "Name": "HDFC Bank Millennia",
+    "Interest": "43.2",
+    "Feature1": "Cashback",
+    "Feature2": "Travel",
+    "Feature3": "Fuel",
+    "Feature4": "Rewards"
+  },
+  {
+    "ID": "29",
+    "Name": "Amazon Pay ICICI Bank",
+    "Interest": "42.0",
+    "Feature1": "Amazon",
+    "Feature2": "Cashback",
+    "Feature3": "ShoppingRewards",
+    "Feature4": "Dining"
+  },
+  {
+    "ID": "52",
+    "Name": "AU Bank Zenith",
+    "Interest": "23.88",
+    "Feature1": "Rewards",
+    "Feature2": "Insurance",
+    "Feature3": "Fuel",
+    "Feature4": ""
+  },
+  {
+    "ID": "64",
+    "Name": "IndianOil Citi Bank ",
+    "Interest": "45.0",
+    "Feature1": "Indian Oil",
+    "Feature2": "Travel",
+    "Feature3": "Fuel",
+    "Feature4": "Shopping"
+  },
+  {
+    "ID": "67",
+    "Name": "Kotak Indigo Ka-Ching 6E Rewards",
+    "Interest": "42.0",
+    "Feature1": "Cashback",
+    "Feature2": "Travel",
+    "Feature3": "Rewards",
+    "Feature4": ""
+  },
+  {
+    "ID": "26",
+    "Name": "Indian Oil HDFC Bank",
+    "Interest": "43.2",
+    "Feature1": "Indian Oil",
+    "Feature2": "Travel",
+    "Feature3": "Fuel",
+    "Feature4": "Rewards"
+  },
+  {
+    "ID": "41",
+    "Name": "Air India SBI Signature",
+    "Interest": "42.0",
+    "Feature1": "Air India",
+    "Feature2": "Travel",
+    "Feature3": "Rewards",
+    "Feature4": "Insurance"
+  },
+  {
+    "ID": "34",
+    "Name": "ICICI Bank MakeMyTrip Platinum",
+    "Interest": "40.8",
+    "Feature1": "MakeMyTrip",
+    "Feature2": "Travel",
+    "Feature3": "Rewards",
+    "Feature4": "Dining"
+  },
+  {
+    "ID": "43",
+    "Name": "Club Vistara SBI",
+    "Interest": "42.0",
+    "Feature1": "Rewards",
+    "Feature2": "Insurance",
+    "Feature3": "Lounge",
+    "Feature4": ""
+  },
+  {
+    "ID": "27",
+    "Name": "6E - Rewards Indigo HDFC Bank",
+    "Interest": "43.2",
+    "Feature1": "Travel",
+    "Feature2": "Rewards",
+    "Feature3": "Fuel",
+    "Feature4": ""
+  },
+  {
+    "ID": "54",
+    "Name": "Standard Chartered Ultimate",
+    "Interest": "45.0",
+    "Feature1": "Travel",
+    "Feature2": "Rewards",
+    "Feature3": "Insurance",
+    "Feature4": ""
+  },
+  {
+    "ID": "17",
+    "Name": "Tata Neu Infinity HDFC Bank",
+    "Interest": "41.88",
+    "Feature1": "Tata Neu",
+    "Feature2": "Rewards",
+    "Feature3": "Insuance",
+    "Feature4": "Lounge"
+  },
+  {
+    "ID": "28",
+    "Name": "Swiggy HDFC Bank",
+    "Interest": "43.2",
+    "Feature1": "Swiggy",
+    "Feature2": "Cashback",
+    "Feature3": "Dining",
+    "Feature4": "Rewards"
+  },
+  {
+    "ID": "15",
+    "Name": "Club Vistara IDFC First Bank",
+    "Interest": "42.0",
+    "Feature1": "Rewards",
+    "Feature2": "Travel",
+    "Feature3": "Insurance",
+    "Feature4": "Lounge"
+  },
+  {
+    "ID": "25",
+    "Name": "Marriot Bonvoy HDFC Bank",
+    "Interest": "43.2",
+    "Feature1": "Marriot Bonvoy",
+    "Feature2": "Lounge",
+    "Feature3": "Rewards",
+    "Feature4": "Insurance"
+  },
+  {
+    "ID": "72",
+    "Name": "IndusInd Bank Platinum Visa",
+    "Interest": "46.0",
+    "Feature1": "Travel",
+    "Feature2": "Rewards",
+    "Feature3": "Insurance",
+    "Feature4": ""
+  },
+  {
+    "ID": "11",
+    "Name": "IDFC First Bank Select",
+    "Interest": "42.0",
+    "Feature1": "Rewards",
+    "Feature2": "Travel",
+    "Feature3": "Insurance",
+    "Feature4": "Entertainment"
+  },
+  {
+    "ID": "22",
+    "Name": "HDFC Bank MoneyBack",
+    "Interest": "43.2",
+    "Feature1": "Cashback",
+    "Feature2": "Fuel",
+    "Feature3": "Dining",
+    "Feature4": ""
+  },
+  {
+    "ID": "5",
+    "Name": "Axis Bank Altas",
+    "Interest": "52.86",
+    "Feature1": "Travel",
+    "Feature2": "Fuel",
+    "Feature3": "Rewards",
+    "Feature4": "Entertainment"
+  },
+  {
+    "ID": "69",
+    "Name": "Kotak League Platinum",
+    "Interest": "42.0",
+    "Feature1": "Cashback",
+    "Feature2": "Travel",
+    "Feature3": "Rewards",
+    "Feature4": ""
+  },
+  {
+    "ID": "73",
+    "Name": "IndusInd Bank Legend",
+    "Interest": "46.0",
+    "Feature1": "Rewards",
+    "Feature2": "Insurance",
+    "Feature3": "Lounge",
+    "Feature4": ""
+  },
+  {
+    "ID": "3",
+    "Name": "Axis Bank Magnus",
+    "Interest": "42.58",
+    "Feature1": "Travel",
+    "Feature2": "Insurance",
+    "Feature3": "Fuel",
+    "Feature4": ""
+  },
+  {
+    "ID": "20",
+    "Name": "HDFC Bank Regelia",
+    "Interest": "43.2",
+    "Feature1": "Fuel",
+    "Feature2": "Insurance",
+    "Feature3": "Lounge",
+    "Feature4": ""
+  },
+  {
+    "ID": "74",
+    "Name": "IndusInd Bank Indulge",
+    "Interest": "46.0",
+    "Feature1": "Cashback",
+    "Feature2": "Travel",
+    "Feature3": "Rewards",
+    "Feature4": "Insurance"
+  },
+  {
+    "ID": "13",
+    "Name": "IDFC First Bank Wealth",
+    "Interest": "42.0",
+    "Feature1": "Rewards",
+    "Feature2": "Travel",
+    "Feature3": "Insurance",
+    "Feature4": "Lounge"
+  },
+  {
+    "ID": "31",
+    "Name": "ICICI Bank Rubyx",
+    "Interest": "40.8",
+    "Feature1": "Insurance",
+    "Feature2": "Entertainment",
+    "Feature3": "Dining",
+    "Feature4": ""
+  },
+  {
+    "ID": "68",
+    "Name": "Myntra Kotak",
+    "Interest": "44.4",
+    "Feature1": "Myntra",
+    "Feature2": "Shopping",
+    "Feature3": "Lounge",
+    "Feature4": ""
+  },
+  {
+    "ID": "12",
+    "Name": "IDFC First Bank Wow",
+    "Interest": "42.0",
+    "Feature1": "Rewards",
+    "Feature2": "Insurance",
+    "Feature3": "Entertainment",
+    "Feature4": ""
+  },
+  {
+    "ID": "23",
+    "Name": "HDFC Regalia Gold",
+    "Interest": "43.2",
+    "Feature1": "Travel",
+    "Feature2": "Entertainment",
+    "Feature3": "Insurance",
+    "Feature4": "Dining"
+  },
+  {
+    "ID": "40",
+    "Name": "BPCL SBI Octane",
+    "Interest": "42.0",
+    "Feature1": "Rewards",
+    "Feature2": "Insurance",
+    "Feature3": "Entertainment",
+    "Feature4": "Lounge"
+  },
+  {
+    "ID": "30",
+    "Name": "ICICI Bank Coral",
+    "Interest": "40.8",
+    "Feature1": "Rewards",
+    "Feature2": "Insurance",
+    "Feature3": "Entertainment",
+    "Feature4": "Dining"
+  },
+  {
+    "ID": "60",
+    "Name": "RBL Bank World Safari",
+    "Interest": "47.88",
+    "Feature1": "Travel",
+    "Feature2": "Rewards",
+    "Feature3": "Insurance",
+    "Feature4": "Lounge"
+  },
+  {
+    "ID": "24",
+    "Name": "HDFC MoneyBack Plus",
+    "Interest": "43.2",
+    "Feature1": "Cashback",
+    "Feature2": "Rewards",
+    "Feature3": "Dining",
+    "Feature4": "Fuel"
+  },
+  {
+    "ID": "75",
+    "Name": "DBS Bank Bajaj Finserv 5X Rewards",
+    "Interest": "42.0",
+    "Feature1": "Bajaj Finserv",
+    "Feature2": "Rewards",
+    "Feature3": "Fuel",
+    "Feature4": ""
+  },
+  {
+    "ID": "39",
+    "Name": "SBI Prime",
+    "Interest": "42.0",
+    "Feature1": "Travel",
+    "Feature2": "Rewards",
+    "Feature3": "Fuel",
+    "Feature4": ""
+  },
+  {
+    "ID": "16",
+    "Name": "IDFC First Bank Millennia",
+    "Interest": "42.0",
+    "Feature1": "Rewards",
+    "Feature2": "Travel",
+    "Feature3": "Insurance",
+    "Feature4": "Fuel"
+  },
+  {
+    "ID": "4",
+    "Name": "Axis Bank Reserve",
+    "Interest": "42.58",
+    "Feature1": "Travel",
+    "Feature2": "Insurance",
+    "Feature3": "Fuel",
+    "Feature4": "Entertainment"
+  },
+  {
+    "ID": "53",
+    "Name": "AU Bank Vetta",
+    "Interest": "41.88",
+    "Feature1": "Rewards",
+    "Feature2": "Insurance",
+    "Feature3": "Fuel",
+    "Feature4": ""
+  },
+  {
+    "ID": "37",
+    "Name": "SBI Elite",
+    "Interest": "42.0",
+    "Feature1": "Rewards",
+    "Feature2": "Entertainment",
+    "Feature3": "Fuel",
+    "Feature4": ""
+  },
+  {
+    "ID": "61",
+    "Name": "Bajaj Finserv RBL Bank Binge Supercard",
+    "Interest": "47.88",
+    "Feature1": "Bajaj Finserv",
+    "Feature2": "Rewards",
+    "Feature3": "Entertainment",
+    "Feature4": "Lounge"
+  },
+  {
+    "ID": "14",
+    "Name": "IDFC First Bank Classic",
+    "Interest": "42.0",
+    "Feature1": "Rewards",
+    "Feature2": "Fuel",
+    "Feature3": "Insurance",
+    "Feature4": "Dining"
+  },
+  {
+    "ID": "56",
+    "Name": "Standard Chartered Ease My Trip",
+    "Interest": "45.0",
+    "Feature1": "Cashback",
+    "Feature2": "Travel",
+    "Feature3": "Rewards",
+    "Feature4": "Lounge"
+  },
+  {
+    "ID": "32",
+    "Name": "ICICI Bank Sapphiro",
+    "Interest": "44.0",
+    "Feature1": "Rewards",
+    "Feature2": "Insurance",
+    "Feature3": "Entertainment",
+    "Feature4": "Dining"
+  },
+  {
+    "ID": "70",
+    "Name": "Kotak Royale Signature",
+    "Interest": "42.0",
+    "Feature1": "Insurance",
+    "Feature2": "Lounge",
+    "Feature3": "Fuel",
+    "Feature4": ""
+  },
+  {
+    "ID": "65",
+    "Name": "Citi Bank CashBack",
+    "Interest": "45.0",
+    "Feature1": "Cashback",
+    "Feature2": "Shopping",
+    "Feature3": "Dining",
+    "Feature4": ""
+  },
+  {
+    "ID": "33",
+    "Name": "HPCL Super Saver",
+    "Interest": "42.0",
+    "Feature1": "Cashback",
+    "Feature2": "Rewards",
+    "Feature3": "Fuel",
+    "Feature4": ""
+  },
+  {
+    "ID": "46",
+    "Name": "American Express Platinum Travel",
+    "Interest": "42.0",
+    "Feature1": "Vouchers",
+    "Feature2": "Travel",
+    "Feature3": "Dining",
+    "Feature4": ""
+  },
+  {
+    "ID": "50",
+    "Name": "AU Bank LIT",
+    "Interest": "43.08",
+    "Feature1": "Cashback",
+    "Feature2": "Rewards",
+    "Feature3": "fuel",
+    "Feature4": ""
+  },
+  {
+    "ID": "63",
+    "Name": "Citi Bank PremierMiles",
+    "Interest": "45.0",
+    "Feature1": "Travel",
+    "Feature2": "Insurance",
+    "Feature3": "Lounge",
+    "Feature4": ""
+  },
+  {
+    "ID": "57",
+    "Name": "Standard Chartered Smart",
+    "Interest": "42.0",
+    "Feature1": "Cashback",
+    "Feature2": "Rewards",
+    "Feature3": "Fuel",
+    "Feature4": ""
+  },
+  {
+    "ID": "55",
+    "Name": "Standard Chartered Digi Smart",
+    "Interest": "45.0",
+    "Feature1": "Travel",
+    "Feature2": "Shopping",
+    "Feature3": "fuel",
+    "Feature4": ""
+  },
+  {
+    "ID": "35",
+    "Name": "SBI SimplyClick",
+    "Interest": "42.0",
+    "Feature1": "Rewards",
+    "Feature2": "Fuel",
+    "Feature3": "",
+    "Feature4": ""
+  },
+  {
+    "ID": "48",
+    "Name": "American Express Gold",
+    "Interest": "42.0",
+    "Feature1": "Vouchers",
+    "Feature2": "Travel",
+    "Feature3": "Dining",
+    "Feature4": ""
+  },
+  {
+    "ID": "66",
+    "Name": "Citi Bank Rewards",
+    "Interest": "45.0",
+    "Feature1": "Cashback",
+    "Feature2": "Rewards",
+    "Feature3": "Fuel",
+    "Feature4": ""
+  },
+  {
+    "ID": "38",
+    "Name": "BPCL SBI",
+    "Interest": "42.0",
+    "Feature1": "Rewards",
+    "Feature2": "Fuel",
+    "Feature3": "",
+    "Feature4": ""
+  },
+  {
+    "ID": "36",
+    "Name": "SBI SimplySave",
+    "Interest": "42.0",
+    "Feature1": "Rewards",
+    "Feature2": "Fuel",
+    "Feature3": "",
+    "Feature4": ""
+  },
+  {
+    "ID": "58",
+    "Name": "Standard Chartered Super Value Titanium",
+    "Interest": "45.0",
+    "Feature1": "Cashback",
+    "Feature2": "Travel",
+    "Feature3": "Lounge",
+    "Feature4": ""
+  },
+  {
+    "ID": "62",
+    "Name": "RBL Bank Platinum Maxima",
+    "Interest": "47.88",
+    "Feature1": "Rewards",
+    "Feature2": "Entertainment",
+    "Feature3": "Lounge",
+    "Feature4": ""
+  },
+  {
+    "ID": "2",
+    "Name": "Axis Bank My Zone",
+    "Interest": "52.86",
+    "Feature1": "Shopping",
+    "Feature2": "Dining",
+    "Feature3": "Entertainment",
+    "Feature4": "Fuel"
+  },
+  {
+    "ID": "45",
+    "Name": "American Express Membership Rewards",
+    "Interest": "42.0",
+    "Feature1": "Vouchers",
+    "Feature2": "Dining",
+    "Feature3": "Fuel",
+    "Feature4": ""
+  },
+  {
+    "ID": "42",
+    "Name": "SBI Cashback",
+    "Interest": "42.0",
+    "Feature1": "Cashback",
+    "Feature2": "Fuel",
+    "Feature3": "",
+    "Feature4": ""
+  },
+  {
+    "ID": "44",
+    "Name": "American Express Platinum",
+    "Interest": "42.0",
+    "Feature1": "Vouchers",
+    "Feature2": "Travel",
+    "Feature3": "Insurance",
+    "Feature4": "Dining"
+  },
+  {
+    "ID": "47",
+    "Name": "American Express SmartEarn",
+    "Interest": "42.0",
+    "Feature1": "Vouchers",
+    "Feature2": "Fuel",
+    "Feature3": "",
+    "Feature4": ""
+  },
+  {
+    "ID": "59",
+    "Name": "RBL Bank Shoprite",
+    "Interest": "47.88",
+    "Feature1": "Rewards",
+    "Feature2": "Entertainment",
+    "Feature3": "",
+    "Feature4": ""
+  },
+  {
+    "ID": "10",
+    "Name": "Axis Bank Privilege",
+    "Interest": "52.86",
+    "Feature1": "Dining",
+    "Feature2": "Lounge",
+    "Feature3": "Insurance",
+    "Feature4": "Fuel"
+  },
+  {
+    "ID": "71",
+    "Name": "IndusInd Bank Duo",
+    "Interest": "46.0",
+    "Feature1": "Insurance",
+    "Feature2": "Fuel",
+    "Feature3": "",
+    "Feature4": ""
+  },
+  {
+    "ID": "7",
+    "Name": "Axis Bank Vistara Signature",
+    "Interest": "52.86",
+    "Feature1": "Travel",
+    "Feature2": "Lounge",
+    "Feature3": "Insurance",
+    "Feature4": "Fuel"
+  },
+  {
+    "ID": "1",
+    "Name": "Flipkart Axis Bank",
+    "Interest": "52.86",
+    "Feature1": "Flipkart",
+    "Feature2": "Cashback",
+    "Feature3": "Shopping",
+    "Feature4": ""
+  },
+  {
+    "ID": "6",
+    "Name": "Axis Bank Neo",
+    "Interest": "52.86",
+    "Feature1": "Shopping",
+    "Feature2": "Dining",
+    "Feature3": "",
+    "Feature4": ""
+  },
+  {
+    "ID": "9",
+    "Name": "Indian Oil Axis Bank",
+    "Interest": "52.86",
+    "Feature1": "Indian Oil",
+    "Feature2": "Travel",
+    "Feature3": "Fuel",
+    "Feature4": ""
+  },
+  {
+    "ID": "8",
+    "Name": "Axis Bank Select",
+    "Interest": "52.86",
+    "Feature1": "Lounge",
+    "Feature2": "Insurance",
+    "Feature3": "Entertainment",
+    "Feature4": ""
+  }
+]

@@ -1,0 +1,65 @@
+
+<div class="rec-title">Answer some simple questions to help us recommend what’s best for you</div>
+    <div class="rec-line"></div>
+<div class="form-container">
+    <form method="POST" action="/recommend">
+      <label for="age" class="form-label">Enter your Age:</label>
+      <input type="text" id="age" name="age" class="form-input" placeholder="Age in yrs" required />
+
+      <label for="income" class="form-label">Enter your Income:</label>
+      <input type="text" id="income" name="income" class="form-input" placeholder="Income in LPA" required />
+      <label for="spendings" class="form-label">How much will you spend using a credit card per month (in Rs)?</label>
+      <input type="range" id="spendings" name="spendings" class="form-input" min="1000" max="500000" step="1000" oninput="spendingsValue.textContent = this.value;" value="0" />
+      <span id="spendingsValue">1000</span>
+
+      <label for="c_score" class="form-label">
+        What's your credit score (Some companies have set some minimum credit score to be eligible for their cards.Type 0 if you don't want to reveal)? :
+      </label> 
+      <input type="text" id="c_score" name="c_score" class="form-input" placeholder="Credit Score" required />
+
+      <label for="freq" class="form-label">How frequently will you use your credit card?</label>
+      <select id="freq" name="freq" class="form-select">
+        <option value="">Choose an option</option>
+        <option value="1">Very Rare</option>
+        <option value="2">Sometimes</option>
+        <option value="3">Very Frequently</option>
+      </select>
+
+      <label for="isPaid" class="form-label">Do you pay your credit bills before the due date?</label>
+      <div class="form-radio-group">
+        <input type="radio" id="isPaidYes" name="isPaid" value="1" class="form-radio-input" />
+        <label for="isPaidYes" class="form-radio-label">Yes</label>
+
+        <input type="radio" id="isPaidNo" name="isPaid" value="0" class="form-radio-input" />
+        <label for="isPaidNo" class="form-radio-label">No</label>
+      </div>
+      <div class="purposes">
+        <div class="purpose-label"><label>For what purposes do you need a credit card?</div></label>
+        <div class="checkbox-group">
+          <input type="checkbox" id="isShopping" name="isShopping" value="1">
+          <label for="isShopping">Shopping</label>
+        </div>
+        <div class="checkbox-group">
+          <input type="checkbox" id="isTravel" name="isTravel" value="1">
+          <label for="isTravel">Travel</label>
+        </div>
+        <div class="checkbox-group">
+          <input type="checkbox" id="isFuel" name="isFuel" value="1">
+          <label for="isFuel">Fuel</label>
+        </div>
+        <div class="checkbox-group">
+          <input type="checkbox" id="isEntertainment" name="isEntertainment" value="1">
+          <label for="isEntertainment">Entertainment</label>
+        </div>
+        <div class="checkbox-group">
+          <input type="checkbox" id="isCashback" name="isCashback" value="1">
+          <label for="isCashback">Cashback</label>
+        </div>
+        <div class="checkbox-group">
+          <input type="checkbox">
+          <label for="isOthers">Others</label>
+        </div>
+      </div>
+      <button type="submit" class="form-button">Submit</button>
+    </form>
+  </div>

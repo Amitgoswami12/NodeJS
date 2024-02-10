@@ -1,0 +1,43 @@
+<% const initialCardsToShow = 5; %>
+<% const totalCards = cardData.length; %>
+
+<div class="content-container">
+    <div class="rec-title">Our top picks</div>
+    <div class="rec-line"></div>
+    <% cardData.forEach((card) => { %>
+        <div class="card-info">
+            <div class="card-image">
+                <img src="cards photo/<%= card.ID %>.webp" alt="Card Image">
+            </div>
+            <div class="card-details">
+                <div class="card-name">
+                    <%= card.Name %>
+                </div>
+                <div class="points">
+                    <div class="point"> Interest: <b><span><%= card.Interest %>%</span></b></div>
+                    <div class="point">
+                        <span class="tick-sign"><img src="teenyiconstickcirclesolid.svg" alt="Tick Sign"></span>
+                      <b> <%= card.Feature1 %></b>
+                    </div>
+                    <div class="point">
+                        <span class="tick-sign"><img src="teenyiconstickcirclesolid.svg" alt="Tick Sign"></span>
+                        <b> <%= card.Feature2 %></b>
+                    </div>
+                    <div class="point">
+                        <% if (card.Feature3) { %>
+                            <span class="tick-sign"><img src="teenyiconstickcirclesolid.svg" alt="Tick Sign"></span>
+                            <b><%= card.Feature3 %></b>
+                        <% } %>
+                    </div>
+                    <div class="point">
+                        <% if (card.Feature4) { %>
+                            <span class="tick-sign"><img src="teenyiconstickcirclesolid.svg" alt="Tick Sign"></span>
+                            <b> <%= card.Feature4 %></b>
+                        <% } %>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    <% }); %>
+</div>

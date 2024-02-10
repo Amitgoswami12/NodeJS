@@ -1,0 +1,400 @@
+body {
+    background-color: fff;
+}
+
+.navbar-nav .nav-link.dropdown-toggle.double-height-link {
+    color: dodgerblue !important;
+}
+
+.double-height-navbar {
+    height: 7.5rem;
+}
+
+.double-height-brand {
+    font-size: 2rem;
+    color: dodgerblue;
+}
+
+.footer-height {
+    height: 5rem;
+}
+
+.double-height-link {
+    font-size: 1.2rem;
+    color: dodgerblue;
+}
+
+.your-mate-to {
+    position: absolute;
+    top: 70px;
+    left: calc(50% - 295px);
+    font-size: var(--font-size-17xl);
+    font-weight: 600;
+    color: var(--color-black);
+    text-align: left;
+}
+
+.when-we-say {
+    margin: 0;
+}
+
+.when-we-say-container {
+    position: absolute;
+    top: 185px;
+    left: calc(50% - 470px);
+    letter-spacing: 0.01em;
+    display: inline-block;
+    width: 940px;
+}
+
+.landing-page-child {
+    top: 258px;
+    left: calc(50% - 80px);
+    width: 160px;
+    height: 8px;
+}
+
+.landing-page-item {
+    top: 70px;
+    left: 1082px;
+    width: 48px;
+    height: 2px;
+}
+
+.landing-page-child1,
+.landing-page-child2,
+.landing-page-inner {
+    position: absolute;
+    top: 340px;
+    left: 124px;
+    border-radius: var(--br-mini);
+    background-color: var(--color-white);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.05);
+    width: 361px;
+    height: 400px;
+}
+
+.landing-page-child1,
+.landing-page-child2 {
+    left: 539px;
+}
+
+.landing-page-child2 {
+    left: 954px;
+}
+
+.know-your-satisfaction {
+    left: calc(50% - 120px);
+}
+
+.best-credit-card,
+.know-your-satisfaction,
+.our-top-picks1 {
+    position: absolute;
+    top: 549px;
+    letter-spacing: 0.01em;
+    font-weight: 500;
+    color: var(--color-black);
+}
+
+.best-credit-card {
+    left: calc(50% - 507px);
+    display: inline-block;
+    width: 182px;
+}
+
+.our-top-picks1 {
+    left: calc(50% + 360px);
+}
+
+.carbonrecommend-icon,
+.grommet-iconsstatus-good,
+.phmask-happy-light-icon {
+    position: absolute;
+    top: 394px;
+    left: 659px;
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+}
+
+.carbonrecommend-icon,
+.grommet-iconsstatus-good {
+    left: 244px;
+}
+
+.grommet-iconsstatus-good {
+    top: 402px;
+    left: 1075px;
+}
+
+.answer-some-simple {
+    left: calc(50% - 573px);
+    display: inline-block;
+    width: 297px;
+}
+
+.answer-some-simple,
+.find-your-satisfaction,
+.some-of-our {
+    position: absolute;
+    top: 671px;
+    font-size: var(--font-size-sm);
+    letter-spacing: 0.01em;
+}
+
+.find-your-satisfaction {
+    left: calc(50% - 149px);
+    display: inline-block;
+    width: 297px;
+}
+
+.some-of-our {
+    left: calc(50% + 297px);
+}
+
+.landing-page-child3,
+.landing-page-child4,
+.line-div {
+    position: absolute;
+    top: 628.8px;
+    left: 263.8px;
+    border-top: 0.5px solid var(--color-gray);
+    box-sizing: border-box;
+    width: 80.5px;
+    height: 0.5px;
+}
+
+.landing-page-child3,
+.landing-page-child4 {
+    left: 687.8px;
+}
+
+.landing-page-child4 {
+    left: 1102.8px;
+}
+
+.landing-page {
+    position: relative;
+    background-color: var(--color-whitesmoke);
+    width: 100%;
+    height: 850px;
+    overflow: hidden;
+    text-align: center;
+    font-size: var(--font-size-lg);
+    color: var(--color-gray);
+    font-family: var(--font-roboto);
+}
+
+a:link {
+    text-decoration: none;
+    color: initial;
+}
+
+.line {
+    background-color: dodgerblue;
+    height: 7.5px;
+    width: 14%;
+    position: absolute;
+    top: 140px;
+    left: 43%;
+}
+
+.our-top-picks {
+    position: absolute;
+    top: 60px;
+    left: calc(50% - 107px);
+    font-size: var(--font-size-17xl);
+    font-weight: 600;
+    color: var(--color-black);
+    text-align: left;
+}
+
+.top-picks-child {
+    position: absolute;
+    top: 120px;
+    left: calc(50% - 80px);
+    background-color: var(--color-dodgerblue);
+    width: 160px;
+    height: 8px;
+}
+.content-container {
+    position: relative;
+    padding: 20px; 
+    min-height: 80vh; 
+    box-sizing: border-box; 
+    margin-bottom: 100px;
+}
+.card-info {
+    position: relative;
+    top: 30px;
+    background-color: #eaf6ff;
+    height: 150px;
+    width: 70%; 
+    margin: 20px auto; 
+    box-shadow: 6px 8px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.card-image {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+}
+
+.card-image img {
+    max-width: 98%;
+    max-height: 98%;
+}
+
+.card-details {
+    width: 75%;
+    padding: 5px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.points {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    height: 100%;
+    flex: 1; 
+}
+.point {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    flex: 1;
+    justify-content: center; 
+}
+.point span {
+    margin-left: 10px; 
+}
+.card-name {
+    font-weight: bold;
+    font-size: 1.7rem; 
+    margin-bottom: 5px; 
+}
+
+.tick-sign img {
+    max-width: 15px;
+    max-height: 15px;
+    margin: 0 5px;
+}
+.form-container {
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #eaf6ff;
+    border-radius: 8px;
+    margin-bottom: 80px;
+    margin-top: 80px;
+  }
+
+  .form-label {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+  }
+
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .form-select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .form-radio-group {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+  }
+
+  .form-radio-label {
+    display: inline;
+    font-weight: normal;
+  }
+
+  .form-button {
+    background-color: #0074d9;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: auto; 
+}
+  .purposes {
+    margin: 20px 0;
+  }
+  .purpose-label{
+    font-weight: bold;
+  }
+  .checkbox-group {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+  }
+  
+  .checkbox-group input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .checkbox-group label {
+    font-size: 16px;
+    color: #333;
+  }
+  .rec-title {
+    font-size: var(--font-size-17xl);
+    font-weight: 600;
+    color: var(--color-black);
+    text-align: center;
+    margin-top: 60px;
+}
+
+.rec-line {
+    background-color: dodgerblue;
+    height: 7.5px;
+    width: 14%;
+    margin-top: 20px; /* Adjust the margin-top value as needed */
+    margin-left: auto;
+    margin-right: auto;
+}
+.view-more-button {
+    background-color: #0074d9;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.card-name-line {
+    font-size: 24px; 
+    margin: 10px 0; 
+}
+
+.score {
+    font-size: 32px; 
+    font-weight: bold; 
+}

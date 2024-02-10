@@ -1,0 +1,43 @@
+<div class="rec-title">Recommended Cards are</div>
+<div class="rec-line"></div>
+<div class="content-container">
+    <% recommender_ids.forEach((id) => { %>
+        <% const card = cardData.find((c) => Number(c.ID) === id); %>
+        <% if (card) { %>
+            <div class="card-info">
+                <div class="card-image">
+                    <img src="cards photo/<%= card.ID %>.webp" alt="Card Image">
+                </div>
+                <div class="card-details">
+                    <div class="card-name">
+                        <%= card.Name %>
+                    </div>
+                    <div class="points">
+                        <div class="point"> Interest: <b><span><%= card.Interest %>%</span></b></div>
+                        <div class="point">
+                            <span class="tick-sign"><img src="teenyiconstickcirclesolid.svg" alt="Tick Sign"></span>
+                            <b> <%= card.Feature1 %></b>
+                        </div>
+                        <div class="point">
+                            <span class="tick-sign"><img src="teenyiconstickcirclesolid.svg" alt="Tick Sign"></span>
+                            <b> <%= card.Feature2 %></b>
+                        </div>
+                        <div class="point">
+                            <% if (card.Feature3) { %>
+                                <span class="tick-sign"><img src="teenyiconstickcirclesolid.svg" alt="Tick Sign"></span>
+                                <b><%= card.Feature3 %></b>
+                            <% } %>
+                        </div>
+                        <div class="point">
+                            <% if (card.Feature4) { %>
+                                <span class="tick-sign"><img src="teenyiconstickcirclesolid.svg" alt="Tick Sign"></span>
+                                <b> <%= card.Feature4 %></b>
+                            <% } %>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <% } %>
+    <% }); %>
+    <button class="view-more-button">View More</button>
+</div>

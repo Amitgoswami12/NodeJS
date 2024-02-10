@@ -1,0 +1,106 @@
+
+<script>function updateCardOptions() {
+    const whichBank = document.getElementById("whichBank");
+    const cardId = document.getElementById("cardId");
+  
+    // Clear existing options
+    cardId.innerHTML = "";
+  
+    // Define card options based on the selected bank
+    const bankValue = whichBank.value;
+    const cardOptions = {
+      1: ["Axis Bank My Zone", "Axis Bank Magnus", "Axis Bank Reserve","Axis Bank Altas","Axis Bank Neo","Axis Bank Vistara Signature","Flipkart Axis Bank"],
+      2: ["SBI SimpliSave", "SBI SimplyClick", "Club Vistara SBI","Air India SBI Signature","SBI Elite","SBI Prime","SBI Cashback"],
+      3: ["ICICI MakeMyTrip Bank", "Amazon Pay ICICI Bank", "ICICI Bank Coral","ICICI Bank Saphhiro","ICICI Rubyx"],
+      4: ["HDFC Bank Millenia","HDFC Bank Regalia","Tata Neu HDFC Bank Infinity","HDFC Bank Gold","HDFC Bank MoneyBack","HDFC Bank MoneyBack Plus","Indian Oil HDFC Bank","Swiggy HDFC Bank","Marriot Bonvoy HDFC Bank"],
+      5: ["IDFC First Bank Select","IDFC First Bank Wow","IDFC First Bank Classic","IDFC First Bank Wealth","IDFC First Bank Millenia","Club Vistara IDFC First Bank"],
+      6: ["Myntra Kotak","Kotak League Platinum","Kotak Royale Premium"],
+      7: ["IndusInd Bank Duo","IndusInd Bank Platinum Visa","IndusInd Bank Legend","IndusInd Bank Indulge"]
+    };
+  
+    // Add new options to the second dropdown
+    const options = cardOptions[bankValue] || [];
+    options.forEach((option, index) => {
+      const optionElement = document.createElement("option");
+      optionElement.value = index + 1; // You can adjust the value as needed
+      optionElement.textContent = option;
+      cardId.appendChild(optionElement);
+    });
+  }</script>
+<div class="rec-title"> Find your satisfaction score and compare different cards accordingly</div>
+    <div class="rec-line"></div>
+<div class="form-container">
+    <form method="POST" action="/s_score">
+        <label for="whichBank" class="form-label">Which bank's card you are/will be using? :</label>
+  <select id="whichBank" name="whichBank" class="form-select" onchange="updateCardOptions()">
+    <option value="">Select Bank</option>
+    <option value="1">Axis Bank</option>
+    <option value="2">SBI</option>
+    <option value="3">ICICI</option>
+    <option value="4">HDFC Bank</option>
+    <option value="5">IDFC Bank</option>
+    <option value="6">Kotak Mahindra Bank</option>
+    <option value="7">IndusInd Bank</option>
+    <option value="8">American Express</option>
+    <option value="9">DBS Bank</option>
+    <option value="10">RBL Bank</option>
+    <option value="11">AU Bank</option>
+    <option value="12">Citi Bank</option>
+    <option value="13">Other</option>
+  </select>
+
+  <label for="cardId" class="form-label">Select your card:</label>
+  <select id="cardId" name="cardId" class="form-select">
+    <option value="0">Select a Bank first</option>
+  </select>
+      <label for="spendings" class="form-label">How much do you/will you spend using a credit card per month (in Rs)?</label>
+      <input type="range" id="spendings" name="spendings" class="form-input" min="1000" max="500000" step="1000" oninput="spendingsValue.textContent = this.value;" value="0" />
+      <span id="spendingsValue">1000</span>
+
+
+      <label for="freq" class="form-label">How frequently do you use your credit card?</label>
+      <select id="freq" name="freq" class="form-select">
+        <option value="">Choose an option</option>
+        <option value="1">Very Rare</option>
+        <option value="2">Sometimes</option>
+        <option value="3">Very Frequently</option>
+      </select>
+
+      <label for="isPaid" class="form-label">Do you pay your credit bills before the due date?</label>
+      <div class="form-radio-group">
+        <input type="radio" id="isPaidYes" name="isPaid" value="1" class="form-radio-input" />
+        <label for="isPaidYes" class="form-radio-label">Yes</label>
+
+        <input type="radio" id="isPaidNo" name="isPaid" value="0" class="form-radio-input" />
+        <label for="isPaidNo" class="form-radio-label">No</label>
+      </div>
+      <div class="purposes">
+        <div class="purpose-label"><label>For what purposes do you/will you use a credit card?</div></label>
+        <div class="checkbox-group">
+          <input type="checkbox" id="isShopping" name="isShopping" value="1">
+          <label for="isShopping">Shopping</label>
+        </div>
+        <div class="checkbox-group">
+          <input type="checkbox" id="isTravel" name="isTravel" value="1">
+          <label for="isTravel">Travel</label>
+        </div>
+        <div class="checkbox-group">
+          <input type="checkbox" id="isFuel" name="isFuel" value="1">
+          <label for="isFuel">Fuel</label>
+        </div>
+        <div class="checkbox-group">
+          <input type="checkbox" id="isEntertainment" name="isEntertainment" value="1">
+          <label for="isEntertainment">Entertainment</label>
+        </div>
+        <div class="checkbox-group">
+          <input type="checkbox" id="isCashback" name="isCashback" value="1">
+          <label for="isCashback">Cashback</label>
+        </div>
+        <div class="checkbox-group">
+          <input type="checkbox">
+          <label for="isOthers">Others</label>
+        </div>
+      </div>
+      <button type="submit" class="form-button">Submit</button>
+    </form>
+  </div>
